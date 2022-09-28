@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_eth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_ind",
+						"type": "uint256"
+					}
+				],
+				"name": "convertEth",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "units",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Finney.sol": "Converter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Finney.sol": {
+			"keccak256": "0xf533a01083d9c02743605c774d5c907335313966fe9c699de72717828f981587",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://99747476fa0b2c72b54c78a84d6e4cd1e743a49fbd7098edefb2228a4bba8856",
+				"dweb:/ipfs/QmTQQezhkkX6MFRHubUq4Gj3HU9t1Sx5LtpPUGdfBDgJu6"
+			]
+		}
+	},
+	"version": 1
+}
