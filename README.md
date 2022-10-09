@@ -1,4 +1,4 @@
-## Solidity-tasks
+## Contracts MCS
 
 EthConverter: convert Eth in "Finney", "Gwei", "Wei";
 
