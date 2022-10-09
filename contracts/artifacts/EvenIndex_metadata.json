@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "addrList",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "changeAddr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EvenIndex.sol": "EvenIndex"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EvenIndex.sol": {
+			"keccak256": "0xce22192323bfb117cdbe4d26374e4627350bc37c8cf9ddf4b0c4f250a99e74ca",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://be2ce310be179eacbaf16a44cd302334c12782bc94c562565fa913170e26b45f",
+				"dweb:/ipfs/QmW2a17wcwhhH7yJcNtQLBs1ujcy3bgxjwBrYRnzaqKswe"
+			]
+		}
+	},
+	"version": 1
+}

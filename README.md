@@ -1,13 +1,13 @@
 ## Solidity-tasks
 
-Finney: convert Eth in "Finney", "Gwei", "Wei";
+EthConverter: convert Eth in "Finney", "Gwei", "Wei";
 
 Factorial: factorial algorithm;
 
 Length: byte array.length results;
 
-MyContract: condition and cycle;
+EvenIndex: even index is changed to owner;
 
-SmallStruct: guestList on party;
+GuestList: adding elements to guestList array;
 
 StructDemo: balance; send and receive;

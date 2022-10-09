@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: GPL-3.0 
 pragma solidity ^0.8.0;
 
-contract MyContract {
+contract EvenIndex {
   address [] public addrList = [
   0x6119806E928EbF578e7ABC4F6ae73BFd8a8462cD, 
   0x0F9c56371ab9f277280e0d2Ec68ea5C901a02CDb, 

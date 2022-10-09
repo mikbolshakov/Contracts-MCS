@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-contract Converter {
+contract EthConverter {
   string[] public units = ["Finney", "Gwei", "Wei"];
 
   function convertEth(uint _eth, uint _ind) public pure returns(uint){
